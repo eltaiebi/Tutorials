@@ -1,0 +1,91 @@
+# Fichiers de configuration utilisateur
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dossiers bin et obj (Build)
+bin/
+obj/
+
+# Cache NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Packages de dépendance, si non inclus dans le projet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs, données de test, etc.
+*.log
+TestResults/
+*.tsscache
+*.vspscc
+*.vssscc
+
+# Fichiers de configuration temporaire et cachés
+~$*
+*.vs
+.vs/
+.vscode/
+
+# Autres fichiers de configuration cachés
+*.DS_Store
+*.directory
+Thumbs.db
+
+# Fichiers de configuration de l’éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers générés par la compilation
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Fichiers de lock pour les dépendances
+*.lock.json
+
+# Dossier pour les fichiers de publication
+publish/
+out/
+
+# Fichiers secrets de l'utilisateur
+secret.json
+
+# Certificats SSL de développement
+*.pfx
+*.p12
+
+# Profils de lancement locaux
+launchSettings.json
+
+# Fichiers de configuration de Rider
+.idea/
+*.suo
+
+# Configurations pour les tests
+TestResults/
+*.cache/
+*.ide/
+
+# .NET Core et .NET 8 Console
+appsettings.*.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Dumps, fichiers de base de données, et fichiers de rapport
+*.mdf
+*.ldf
+*.jfm
+*.backup
+*.bak
