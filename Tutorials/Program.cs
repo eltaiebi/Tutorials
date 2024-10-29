@@ -10,5 +10,6 @@ class Program
         Encapsulation.Examples();
         OpenClosedPrinciple.Examples();
         SubstitutionPrincipleLiskov.Exemple();
+        InterfaceSegregationPrinciple.Exemple();
     }
 }
