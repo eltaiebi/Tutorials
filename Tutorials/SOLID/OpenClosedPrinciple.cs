@@ -16,18 +16,16 @@ namespace Tutorials.SOLID
                 Recipient = "user@example.com"
             };
 
-            // Envoi d'un e-mail
             INotificationSender emailSender = new EmailNotificationSender();
+            INotificationSender smsSender = new SmsNotificationSender();
+            INotificationSender pushSender = new PushNotificationSender();
+
             NotificationService emailService = new NotificationService(emailSender);
             emailService.SendNotification(notification);
 
-            // Envoi d'un SMS
-            INotificationSender smsSender = new SmsNotificationSender();
             NotificationService smsService = new NotificationService(smsSender);
             smsService.SendNotification(notification);
-
-            // Envoi d'une notification Push
-            INotificationSender pushSender = new PushNotificationSender();
+            
             NotificationService pushService = new NotificationService(pushSender);
             pushService.SendNotification(notification);
         }
