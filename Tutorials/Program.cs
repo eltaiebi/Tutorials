@@ -9,5 +9,6 @@ class Program
         Polymorphisme.Examples();
         Encapsulation.Examples();
         OpenClosedPrinciple.Examples();
+        SubstitutionPrincipleLiskov.Exemple();
     }
 }
