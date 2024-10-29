@@ -8,7 +8,7 @@ namespace Tutorials.SOLID
 {
     internal class LiskovSubstitutionPrinciple
     {
-        public static void Exemple()
+        public static void Examples()
         {
             Document doc1 = new TextDocument { Content = "Contenu du document texte" };
             Document doc2 = new ReadOnlyDocument { Content = "Contenu en lecture seule" };

@@ -8,7 +8,7 @@ namespace Tutorials.SOLID
 {
     internal class InterfaceSegregationPrinciple
     {
-        public static void Exemple()
+        public static void Examples()
         {
             // Création d'instances pour chaque type de document
             DocumentPdf pdfDocument = new DocumentPdf();

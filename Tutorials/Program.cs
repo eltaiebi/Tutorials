@@ -1,5 +1,6 @@
 ﻿using System;
 using Tutorials;
+using Tutorials.DesignPattern;
 using Tutorials.SOLID;
 
 class Program
@@ -9,7 +10,8 @@ class Program
         Polymorphisme.Examples();
         Encapsulation.Examples();
         OpenClosedPrinciple.Examples();
-        LiskovSubstitutionPrinciple.Exemple();
-        InterfaceSegregationPrinciple.Exemple();
+        LiskovSubstitutionPrinciple.Examples();
+        InterfaceSegregationPrinciple.Examples();
+        Singleton.Examples();
     }
 }
