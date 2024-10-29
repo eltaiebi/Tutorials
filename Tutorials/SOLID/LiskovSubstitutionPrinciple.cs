@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tutorials.SOLID
 {
-    internal class SubstitutionPrincipleLiskov
+    internal class LiskovSubstitutionPrinciple
     {
         public static void Exemple()
         {
