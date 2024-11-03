@@ -13,5 +13,6 @@ class Program
         LiskovSubstitutionPrinciple.Examples();
         InterfaceSegregationPrinciple.Examples();
         Singleton.Examples();
+        Factory.Examples();
     }
 }
