@@ -14,5 +14,6 @@ class Program
         InterfaceSegregationPrinciple.Examples();
         Singleton.Examples();
         Factory.Examples();
+        Builder.Examples();
     }
 }
